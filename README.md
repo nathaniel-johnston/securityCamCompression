@@ -1,6 +1,7 @@
 # securityCamCompression
 This project helps to shorten the viewing time of security footage by overlapping the motion of videos from a security camera into a single video. By using this program, someone watching some security camera footage would be able to see all the videos at once in a fraction of the time. In fact, they would only need to watch for the length of the longest video that is being merged.
-An example of the program's output can be seen in the repository under the name "final.avi"
+An example of the program's output can be seen in here:
+![](motion.gif)
 
 ## How it works
 1. The program has to detect the motion of one of the videos
