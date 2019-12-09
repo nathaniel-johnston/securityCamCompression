@@ -7,25 +7,6 @@ vid2 = "C:/Users/user/pictures/Camera Roll/test 2.mp4"
 
 avg = None
 
-# def split(outFile, video, numTimes):
-#     cap = cv2.VideoCapture(video)
-#     ret, frame = cap.read()
-#     height, width = frame.shape[:2]
-#     totalFrames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-#
-#     fourcc = cv2.VideoWriter_fourcc(*'XVID')
-#
-#     for i in range(0, numTimes):
-#         writer = cv2.VideoWriter(outFile + str(i) + ".avi", fourcc, cap.get(cv2.CAP_PROP_FPS), (width, height))
-#
-#         for numFrames in range(0, math.floor(totalFrames / numTimes)):
-#             writer.write(frame)
-#
-#             ret, frame = cap.read()
-#
-#         writer.release()
-
-
 def weightedAvg(num1, num2, weight):
     return math.floor(num1 * weight + (1 - weight) * num2)
 
